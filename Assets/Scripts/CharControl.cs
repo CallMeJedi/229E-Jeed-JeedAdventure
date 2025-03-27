@@ -29,5 +29,7 @@ public class CharControl : MonoBehaviour
         {
             rb.AddForce(Vector3.up * jumpForce);
         }
+        
+        
     }
 }
