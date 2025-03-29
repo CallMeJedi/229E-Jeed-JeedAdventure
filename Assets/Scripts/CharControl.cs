@@ -35,4 +35,6 @@ public class CharControl : MonoBehaviour
             hasJumped = false;
         }
     }
+    
+    
 }
