@@ -1,5 +1,6 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Stopwatch : MonoBehaviour
 {
@@ -17,5 +18,10 @@ public class Stopwatch : MonoBehaviour
     {
         time += Time.deltaTime;
         timerText.text = time.ToString();
+
+        if (time >= 90 )
+        {
+            SceneManager.LoadScene("SampleScene");
+        }
     }
 }
