@@ -3126,7 +3126,7 @@ Transform:
   m_GameObject: {fileID: 561211812}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 55.991, y: 0.9, z: -0.01}
+  m_LocalPosition: {x: 54.57, y: 0.9, z: -0.01}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -4487,7 +4487,7 @@ Transform:
   m_GameObject: {fileID: 832575517}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -15.13, y: 0.393, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4633,7 +4633,7 @@ Transform:
   m_GameObject: {fileID: 889607114}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -14.97, y: 0.775, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10947,7 +10947,7 @@ Transform:
   m_GameObject: {fileID: 8164078559087475657}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -0.61, y: 0.636, z: -0}
+  m_LocalPosition: {x: -0.661, y: 0.615, z: -0}
   m_LocalScale: {x: 0.79671025, y: 0.79671, z: 0.79671025}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -11053,13 +11053,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8164078558416153010}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.0007730364, y: -0.015207209, z: -0.61851555, w: 0.785625}
-  m_LocalPosition: {x: 42.862, y: 0.317, z: -0.826}
+  m_LocalRotation: {x: -0.012089999, y: -0.0053835413, z: 0.025243219, w: 0.9995938}
+  m_LocalPosition: {x: 42.87, y: 0.285, z: -0.825}
   m_LocalScale: {x: 0.29573694, y: 0.3282501, z: 0.32825}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: -1.148, y: -1.315, z: -76.413}
+  m_LocalEulerAnglesHint: {x: -1.369, y: -0.652, z: 2.901}
 --- !u!23 &1587545474017213579
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11983,7 +11983,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!136 &8164078558416153013
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -12006,7 +12006,7 @@ CapsuleCollider:
   m_Radius: 1.01
   m_Height: 2.65
   m_Direction: 0
-  m_Center: {x: -0.3, y: -0.15, z: 0}
+  m_Center: {x: -0.01, y: 0.21, z: 0}
 --- !u!1 &8164078558601032302
 GameObject:
   m_ObjectHideFlags: 0

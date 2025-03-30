@@ -7,10 +7,10 @@ public class ThrowRock : MonoBehaviour
     public void CalculateForce()
     {
         force = mass * acc;
-        GetComponent<Rigidbody>().AddRelativeForce(0, force,0);
+        GetComponent<Rigidbody>().AddRelativeForce(force, 0,0);
     }
 
-    private void Update()
+    void Update()
     {
         if (Input.GetKeyDown(KeyCode.F))
         {
